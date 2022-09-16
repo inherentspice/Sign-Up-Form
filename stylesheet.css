@@ -1,0 +1,36 @@
+:root {
+  --color-white: rgb(255, 255, 255);
+  --header-border: rgb(128, 0, 128, 0.2);
+  --transparency: rgba(0, 0, 0, 0.5);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  background-image: url('images/zoom-baby.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 80vw;
+  justify-content: center;
+}
+
+.banner-logo {
+  background-color: var(--transparency);
+  border: 1px solid var(--header-border);
+  text-align: center;
+}
+
+h1 {
+  color: var(--color-white);
+  font-size: 4rem;
+}
