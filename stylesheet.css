@@ -118,3 +118,8 @@ p {
   font-size: 1.5rem;
   font-weight: 600;
 }
+
+
+input:focus {
+  border: 3px solid rgb(238, 91, 238);
+}
