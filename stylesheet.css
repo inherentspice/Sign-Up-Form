@@ -7,6 +7,7 @@
 body {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .content {
@@ -33,4 +34,87 @@ body {
 h1 {
   color: var(--color-white);
   font-size: 4rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  padding-right: 10rem;
+  width: 100vw;
+}
+.form-display {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+  border: 2px solid rgb(238, 91, 238, 0.2);
+  box-shadow: 8px 9px 6px 1px rgb(238, 91, 238, 0.2);
+}
+
+.form-content {
+  display: flex;
+}
+
+.form-inputs {
+  display: flex;
+  width: 35rem;
+}
+
+form {
+  display: flex;
+  flex-flow: wrap;
+  gap: 1rem;
+}
+
+.entry-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-create {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.form-intro {
+  padding: 1rem;
+}
+
+button {
+  background-color: rgb(238, 91, 238);
+  color: rgb(255, 255, 255);
+  height: 3rem;
+  width: 15rem;
+  border-radius: 5%;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: none;
+}
+
+h2 {
+  color:rgb(238, 91, 238);
+  font-size: 2rem;
+}
+
+label {
+  text-transform: uppercase;
+  color: rgb(114, 113, 113);
+  font-weight: 600;
+  font-size: 12px;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+a {
+  text-decoration: none;
+  color:rgb(238, 91, 238);
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 600;
 }

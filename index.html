@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign-Up Form</title>
   <link rel="stylesheet" href="stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="content">
@@ -17,31 +20,50 @@
     <div class="form">
       <div class="form-intro">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+         This is not a real service.
+         If it were, here's where it would explain about how if you sign up below you will recieve our newsletter about the upcoming alien invasion/apocalypse.
+         But it isn't.
+         It's a test website.
+        </p>
+        <p>
+          So sign up below!
         </p>
       </div>
-      <div class="form-content">
-        <h2>Sign Away</h2>
-        <form action="example.com/path" method="POST">
-          <label for="first_name">First Name: </label>
-          <input type="text" id="first_name" placeholder="John">
-          <label for="last_name">Last Name: </label>
-          <input type="text" id="last_name" placeholder="Johnson">
-          <label for="user_email">Email Address: </label>
-          <input type="email" id="user_email">
-          <label for="user_number">Phone Number: </label>
-          <input type="number" id="user_number">
-          <label for="user_password">Password: </label>
-          <input type="password" id="set_password">
-          <label for="confirm_password">Confirm Password: </label>
-          <input type="password" id="confirm_password">
-        </form>
+      <div class="form-display">
+        <h2>Sign Up</h2>
+        <div class="form-content">
+          <div class="form-inputs">
+            <form action="#" id="sign-up-form" method="POST">
+              <div class="entry-cont">
+                <label for="first_name">First Name: </label>
+                <input type="text" id="first_name" placeholder="John" required>
+              </div>
+              <div class="entry-cont">
+                <label for="last_name">Last Name: </label>
+                <input type="text" id="last_name" placeholder="Johnson" required>
+              </div>
+              <div class="entry-cont">
+                <label for="user_email">Email Address: </label>
+                <input type="email" id="user_email" required>
+              </div>
+              <div class="entry-cont">
+                <label for="user_number">Phone Number: </label>
+                <input type="number" id="user_number" required>
+              </div>
+              <div class="entry-cont">
+                <label for="user_password">Password: </label>
+                <input type="password" id="set_password" required>
+              </div>
+              <div class="entry-cont">
+                <label for="confirm_password">Confirm Password: </label>
+                <input type="password" id="confirm_password" required>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
       <div class="form-create">
-        <button>Create Account</button>
+        <button type="submit" form="sign-up-form">Create Account</button>
         <p>Already have an account? <a href="www.google.com">Log in!</a></p>
       </div>
     </div>
